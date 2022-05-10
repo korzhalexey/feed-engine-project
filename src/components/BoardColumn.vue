@@ -27,7 +27,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Photos, MutationTypes } from '@/types'
+import { Photos, MutationTypes } from '../types'
 import ColumnPhoto from './ColumnPhoto.vue'
 import AppDrag from './AppDrag.vue'
 import AppDrop from './AppDrop.vue'

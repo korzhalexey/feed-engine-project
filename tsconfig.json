@@ -27,9 +27,9 @@
     ]
   },
   "include": [
-    "feed-engine/src/**/*.ts",
-    "feed-engine/src/**/*.tsx",
-    "feed-engine/src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],

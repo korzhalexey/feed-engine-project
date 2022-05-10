@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
-import defaultBoard from '@/default-board'
-import { saveStatePlugin, uuid } from '@/utils'
+import defaultBoard from '../default-board'
+import { saveStatePlugin, uuid } from '../utils'
 
 const storageBoard = localStorage.getItem('board')
 const board = storageBoard ? JSON.parse(storageBoard) : defaultBoard

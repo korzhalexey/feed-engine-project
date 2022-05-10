@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue'
-import { TransferData } from '@/types'
+import { TransferData } from '../types'
 
 export default defineComponent({
   name: 'AppDrag',

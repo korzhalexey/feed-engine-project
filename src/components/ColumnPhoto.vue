@@ -21,7 +21,7 @@ import { defineComponent, PropType } from 'vue'
 import movingPhotosAndColumns from '../mixins/movingPhotosAndColumns'
 import AppDrag from './AppDrag.vue'
 import AppDrop from './AppDrop.vue'
-import { Photos } from '@/types'
+import { Photos } from '../types'
 
 export default defineComponent({
   name: 'ColumnPhoto',

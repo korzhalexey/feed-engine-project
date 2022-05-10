@@ -1,4 +1,4 @@
-import { Board, Column, MutationTypes, TransferData } from '@/types'
+import { Board, Column, MutationTypes, TransferData } from '../types'
 import { PropType, defineComponent } from 'vue'
 
 export default defineComponent({
